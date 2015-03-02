@@ -36,3 +36,24 @@ Layout: Content-Sidebar
     padding: 0 4rem;
     margin: 0 auto;
 }
+
+@media screen and (min-width: 1000px)
+{
+.content-area {
+	width: 100%;
+	float: left;
+	margin-left: -380px;
+	padding-left: 380px;
+}
+
+	.entry-header,
+	.entry-content,
+	.entry-meta,
+	.entry-footer,
+	.tag-links,
+	.post-navigation,
+	.comments-area,
+	.paging-navigation {
+	 margin-right: 0;
+	}
+}
