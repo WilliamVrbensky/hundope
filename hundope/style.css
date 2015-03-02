@@ -925,8 +925,18 @@ input[type="search"] {
 }
 
 /*--------------------------------------------------------------
-10.0 Content
+10.0 Footer
 --------------------------------------------------------------*/
+.site-footer {
+	padding-top: 20px;
+	margin-bottom: -25px;
+	padding-left: 20px;
+	text-align: left;
+	font-size: 1em;
+	color: white;
+	font-family: helvetica, arial, sans-serif;
+}
+
 /*--------------------------------------------------------------
 10.1 Posts and pages
 --------------------------------------------------------------*/
