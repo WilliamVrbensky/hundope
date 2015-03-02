@@ -607,13 +607,12 @@ a:active {
 .main-navigation .current-menu-item > a:hover {
 	background: #4d4d4d;
 	color: hsl(0, 0%, 19%);
-    	color: white;
+    color: white;
 }
 
 .main-navigation .current_page_ancestor {
 	background: #4d4d4d;
-	background: hsl(0, 0%, 30%);
-    
+	background: hsl(0, 0%, 30%);  
 }
 
 .main-navigation ul ul .current_page_parent,
@@ -662,7 +661,7 @@ a:active {
 
 .main-navigation li a { 
 	padding: 1.3em 2em; 
-	}
+}
 
 .main-navigation li li a { 
 	padding-left: 4em; 
