@@ -73,3 +73,26 @@ Layout: Content-Sidebar
 	font-size: 14px;
 	font-family: Verdana, Geneva, sans-serif;
 }
+
+.widget {
+	background: hsl(0, 0%, 19%);
+	font-size: 8px;
+	margin: 0 0 24px;
+	padding: 20px;
+	
+}
+
+.widget .widget-title {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	margin: 0 0 8px;
+}
+
+.widget ul,
+.widget ol {
+	font-size: 14px;
+	font-family: Verdana, Geneva, sans-serif;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
