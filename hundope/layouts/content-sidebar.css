@@ -57,3 +57,14 @@ Layout: Content-Sidebar
 	 margin-right: 0;
 	}
 }
+
+@media screen and (max-width: 999px) 
+{
+.site-content .widget-area {
+    width: auto;
+    max-width: 780px;
+    float: none;
+    margin: 1rem auto 0;
+    
+}
+}
