@@ -853,7 +853,7 @@ a:active {
 	background: linear-gradient(black, grey); 
 }
 
-   /*Header search */
+/*Header search */
 .search-toggle {
 	float: right;
 	padding: 12px;
@@ -893,8 +893,36 @@ input[type="search"] {
 	background: #4d4d4d;
 	background: hsl(0, 0%, 30%);
 }
+   
+.search-box .search-field {
+	max-width: 362px;
+	float: right;
+	padding: 1rem 2rem 1rem 4rem;
+	font-size: 10px;
+	font-size: 1rem;
+	background-color: #fff;
+	border: 0;
+}
 
+.error404 .search-submit,
+.search .search-submit,
+.search-box .search-submit { 
+	display: none; 
+}
 
+/* Header responsive */
+@media screen and (max-width: 100px) {
+.site-branding { 
+	padding: 0 auto; 
+}
+	    
+.title-box {
+	max-width: 100%;
+	margin: 0;
+	padding: 4rem;
+	border: none;
+}
+}
 
 /*--------------------------------------------------------------
 10.0 Content
