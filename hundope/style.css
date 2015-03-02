@@ -1,14 +1,14 @@
 /*
 Theme Name: hundope
 Theme URI: http://underscores.me/
-Author: William, Elton, Farrukh
+Author: William Vrbensky, Elton Fernandes and Farrukh Muhammad
 Author URI: http://phoenix.sheridanc.on.ca/~ccit2661/
-Description: an unreal theme
-Version: 1.0.0
+Description: A theme for Safeguard Security.
+Version: 1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: hundope
-Tags:
+Domain Path: /languages/
 
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
@@ -32,15 +32,17 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 6.0 Accessibility
 7.0 Alignments
 8.0 Clearings
-9.0 Widgets
-10.0 Content
-	10.1 Posts and pages
-	10.2 Asides
-	10.3 Comments
-11.0 Infinite scroll
-12.0 Media
-	12.1 Captions
-	12.2 Galleries
+9.0 Header
+10.0 Footer
+11.0 Widgets
+12.0 Content
+	12.1 Posts and pages
+	12.2 Asides
+	12.3 Comments
+13.0 Infinite scroll
+14.0 Media
+	14.1 Captions
+	14.2 Galleries
 --------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
