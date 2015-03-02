@@ -823,21 +823,37 @@ a:active {
 }
 
 /*--------------------------------------------------------------
-9.0 Widgets
+9.0 Header
 --------------------------------------------------------------*/
-.widget {
-	margin: 0 0 1.5em;
+.site-branding {
+	text-align: center;
 }
 
-/* Make sure select elements fit in widgets. */
-.widget select {
-	max-width: 100%;
+.site-title {
+	font-size: 4em;
+	font-family: Play, sans-serif;
+	text-transform: uppercase;
 }
 
-/* Search widget. */
-.widget_search .search-submit {
-	display: none;
+.site-description {
+	font-size: 2em;
+	font-family: Verdana, Geneva, sans-serif;
+	margin-top: -30px;
 }
+
+.site-title a,
+.site-description { 
+	color: white;
+	text-decoration: none;
+}   
+
+#gradient {
+	height: 16em;
+	padding-top: 5px;
+	background: linear-gradient(black, grey); 
+}
+
+
 
 /*--------------------------------------------------------------
 10.0 Content
