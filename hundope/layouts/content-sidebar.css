@@ -68,3 +68,8 @@ Layout: Content-Sidebar
     
 }
 }
+
+.textwidget {
+	font-size: 14px;
+	font-family: Verdana, Geneva, sans-serif;
+}
