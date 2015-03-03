@@ -12,12 +12,12 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'hundope' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'hundope' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( __( 'Theme: %1$s by %2$s.', 'hundope' ), 'hundope', '<a href="http://phoenix.sheridanc.on.ca/~ccit2661/" rel="designer">William, Elton, Farrukh</a>' ); ?>
+			<i class="fa fa-copyright"></i>
+			<?php printf( __( 'Safeguard Security', 'hundope' ), 'Safeguard Security' ); ?>
 		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
-</div><!-- #page -->
+		<?php hundope_social_menu(); ?>
+	</footer>
+</div>
 
 <?php wp_footer(); ?>
 
