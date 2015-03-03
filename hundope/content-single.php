@@ -22,7 +22,6 @@
 			) );
 		?>
 	</div><!-- .entry-content -->
-
 	<footer class="entry-footer">
 		<?php hundope_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
