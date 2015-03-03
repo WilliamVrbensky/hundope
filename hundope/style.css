@@ -630,8 +630,8 @@ a:active {
 
 @media screen and (max-width: 600px) {
 .menu-toggle {
-	margin-left: 20px;
-	margin-top: 40px;
+	margin-left: 90px;
+	margin-top: 50px;
 	font-weight: normal;
 	font-size: 14px;
 	font-size: 1.4rem;
