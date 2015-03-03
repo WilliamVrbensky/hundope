@@ -607,12 +607,13 @@ a:active {
 .main-navigation .current-menu-item > a:hover {
 	background: #4d4d4d;
 	color: hsl(0, 0%, 19%);
-    color: white;
+    	color: white;
 }
 
 .main-navigation .current_page_ancestor {
 	background: #4d4d4d;
-	background: hsl(0, 0%, 30%);  
+	background: hsl(0, 0%, 30%);
+    
 }
 
 .main-navigation ul ul .current_page_parent,
@@ -825,6 +826,7 @@ a:active {
 /*--------------------------------------------------------------
 9.0 Header
 --------------------------------------------------------------*/
+
 .site-branding {
 	text-align: center;
 }
@@ -853,7 +855,7 @@ a:active {
 	background: linear-gradient(black, grey); 
 }
 
-/*Header search */
+   /*Header search */
 .search-toggle {
 	float: right;
 	padding: 12px;
@@ -909,6 +911,7 @@ input[type="search"] {
 .search-box .search-submit { 
 	display: none; 
 }
+   
 
 /* Header responsive */
 @media screen and (max-width: 100px) {
@@ -927,6 +930,7 @@ input[type="search"] {
 /*--------------------------------------------------------------
 10.0 Footer
 --------------------------------------------------------------*/
+
 .site-footer {
 	padding-top: 20px;
 	margin-bottom: -25px;
