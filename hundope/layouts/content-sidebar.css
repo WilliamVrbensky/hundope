@@ -4,15 +4,15 @@ Layout: Content-Sidebar
 */
 
 .site-main {
-    background: white;
+	background: white;
 }
 
 .site-content .widget-area {
-    width: 380px;
-    float: right;
-    padding: 4rem;
-    margin-top: -21px;
-    color: white;
+	width: 380px;
+	float: right;
+	padding: 4rem;
+	margin-top: -21px;
+	color: white;
 }
 
 .site-footer {
@@ -30,11 +30,11 @@ Layout: Content-Sidebar
 .post-navigation,
 .comments-area,
 .paging-navigation {
-    position: relative;
-    max-width: 780px;
-    max-width: 78rem;
-    padding: 0 4rem;
-    margin: 0 auto;
+	position: relative;
+	max-width: 780px;
+	max-width: 78rem;
+	padding: 0 4rem;
+	margin: 0 auto;
 }
 
 @media screen and (min-width: 1000px)
@@ -46,25 +46,25 @@ Layout: Content-Sidebar
 	padding-left: 380px;
 }
 
-	.entry-header,
-	.entry-content,
-	.entry-meta,
-	.entry-footer,
-	.tag-links,
-	.post-navigation,
-	.comments-area,
-	.paging-navigation {
-	 margin-right: 0;
-	}
+.entry-header,
+.entry-content,
+.entry-meta,
+.entry-footer,
+.tag-links,
+.post-navigation,
+.comments-area,
+.paging-navigation {
+	margin-right: 0;
+}
 }
 
 @media screen and (max-width: 999px) 
 {
 .site-content .widget-area {
-    width: auto;
-    max-width: 780px;
-    float: none;
-    margin: 1rem auto 0;
+	width: auto;
+	max-width: 780px;
+	float: none;
+	margin: 1rem auto 0;
     
 }
 }
