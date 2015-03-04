@@ -55,8 +55,7 @@ html {
 }
 
 body {
-	margin: 0;
-	
+	margin: 0;	
 }
 
 article,
@@ -917,6 +916,7 @@ input[type="search"] {
 @media screen and (max-width: 100px) {
 .site-branding { 
 	padding: 0 auto; 
+	
 }
 	    
 .title-box {
@@ -931,6 +931,7 @@ input[type="search"] {
 10.0 Footer
 --------------------------------------------------------------*/
 .site-footer {
+	position: relative;
 	padding-top: 20px;
 	margin-bottom: -25px;
 	padding-left: 20px;
@@ -940,42 +941,11 @@ input[type="search"] {
 	font-family: helvetica, arial, sans-serif;
 }
 
-html,
-body {
-	margin:0;
-	padding:0;
-	height:100%;
-}
-
-#wrapper {
-	min-height:100%;
-	position:relative;
-}
-
-#header {
-	padding:10px;
-	background:#5ee;
-}
-
-#content {
-	padding:10px;
-	padding-bottom:80px;   /* Height of the footer element */
-}
-
-#footer {
-	width:100%;
-	height:80px;
-	position:absolute;
-	bottom:0;
-	left:0;
-	background:#ee5;
-}
-
 /*--------------------------------------------------------------
 11.0 Widgets
 --------------------------------------------------------------*/
 .widget {
-	margin: 0 0 1.5em;
+	margin: 0 0 4em;
 }
 
 /* Make sure select elements fit in widgets. */
@@ -986,6 +956,29 @@ body {
 /* Search widget. */
 .widget_search .search-submit {
 	display: none;
+}
+
+.footer-widgets { 
+	margin: 0 auto;
+}
+
+.footer-widgets .widget {
+	float: none;
+	width: 320px;
+	margin: 0 2em 2em 2em;
+}
+
+/* Footer widgets responsive */
+@media screen and (max-width: 875px) {
+    #footer-widgets { 
+	width: 100%!important; 
+}
+
+    .footer-widgets .widget {
+        float: none;
+        width: 100%;
+        margin: 0 0 2em -1.5em;
+    }
 }
 
 /*--------------------------------------------------------------
