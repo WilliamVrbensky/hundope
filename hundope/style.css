@@ -628,6 +628,7 @@ a:active {
 	display: none;
 }
 
+/*This creates a media query for the menu toggle which makes it responsive by the following style which comes to play when the width of the page is below 600 pixels*/
 @media screen and (max-width: 600px) {
 .menu-toggle {
 	margin-left: 90px;
@@ -706,7 +707,7 @@ a:active {
 }        
 }
 
-/* The code below styles the social media menu in the footer. */
+/* The code below styles the social media menu in the footer. It also extracts the Font Awesome icons with the implementation of our enqueue in the functions file. */
 .menu-social ul li {
 	display:  inline-block;  
 	position: relative;  
@@ -869,6 +870,7 @@ a:active {
 	background: hsl(0, 0%, 30%);
 }
 
+/*This creates a media query for the front index thumbnail and makes it responsive by the following style which comes to play when the width of the page is below 600 pixels.*/
 @media screen and (max-width: 600px){
 .front-index-thumbnail {
 	position: absolute;
@@ -911,8 +913,9 @@ input[type="search"] {
 	display: none; 
 }
    
-
-/* Header responsive */
+/*This creates a media query for the header and makes it responsive by the following style which comes to play when the width of the page is below 100 pixels.
+*We set these paramteres to make the header proportionate when the screen is compressed under 100px.
+*/
 @media screen and (max-width: 100px) {
 .site-branding { 
 	padding: 0 auto; 
@@ -959,14 +962,21 @@ input[type="search"] {
 	margin: 0 auto;
 }
 
+
 .footer-widgets .widget {
-	float: none;
+	float: left;
 	width: 320px;
-	margin: 0 2em 2em 2em;
+	margin: 0 5em 5em 5em;
 }
+	
 
 /* Footer widgets responsive */
-@media screen and (max-width: 875px) {
+
+/*
+*This creates a media query for the footer and makes it responsive by the following style which comes to play when the width of the page is below 879 pixels. 
+*The media query will make our footer widgets area responsive when the window is shrunk to fit accordingly on the page. 
+*We also have an !important piece of code to allow our footer widgets to tuck under eachother when the screen is shrunk passed 879px and rearrange each widget under one another. */
+@media screen and (max-width: 879px) {
 #footer-widgets { 
 	width: 100%!important; 
 }
@@ -975,7 +985,6 @@ input[type="search"] {
         float: none;
         width: 100%;
         margin: 0 0 2em -1.5em;
-    }
 }
 
 /*--------------------------------------------------------------
@@ -1135,3 +1144,4 @@ object {
 .gallery-caption {
 	display: block;
 }
+
