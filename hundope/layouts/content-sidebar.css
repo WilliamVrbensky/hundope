@@ -37,6 +37,9 @@ Layout: Content-Sidebar
 	margin: 0 auto;
 }
 
+/*
+*The code below works when the screen is at 1000 pixels or wider. This rule set only applies when the screen is above 1000px wide.
+*/
 @media screen and (min-width: 1000px)
 {
 .content-area {
@@ -46,6 +49,7 @@ Layout: Content-Sidebar
 	padding-left: 380px;
 }
 
+/*When the screen gets big enough, the content will have a margin-right of zero to force it against our sidebar.*/
 .entry-header,
 .entry-content,
 .entry-meta,
@@ -58,6 +62,10 @@ Layout: Content-Sidebar
 }
 }
 
+/*
+*The media query below is initalized when it is 999px or smaller to allow the content to fit accordingly when you shrink the window.
+*The width auto class allows the sidebar widget area to fit accordingly depending on how small you make the screen.
+*/
 @media screen and (max-width: 999px) 
 {
 .site-content .widget-area {
@@ -77,7 +85,7 @@ Layout: Content-Sidebar
 .widget {
 	background: hsl(0, 0%, 19%);
 	font-size: 8px;
-	margin: 0 0 24px;
+	margin: 0 0 4em;
 	padding: 20px;
 }
 

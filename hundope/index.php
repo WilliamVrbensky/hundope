@@ -11,26 +11,27 @@
  * @package hundope
  */
 
+//This includes the header.php template file from the theme directory
 get_header(); ?>
 
+<?php //This creates a division identified as 'primary' with a class named 'content-area'?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
+		<?php //This function checks to see if the current WordPress query has any results to loop over ?>
 		<?php if ( have_posts() ) : ?>
 
 			<?php /* Start the Loop */ ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 
-				<?php
-					/* Include the Post-Format-specific template for the content.
-					 * If you want to override this in a child theme, then include a file
-					 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
-					 */
+			<?php //This loads a template part 'content' into a template, making it easy for the theme to reuse sections of the code.
 					get_template_part( 'content', get_post_format() );
 				?>
 
 			<?php endwhile; ?>
 
+			<?php //This displays navigation to a different post.?>
+			
 			<?php the_posts_navigation(); ?>
 
 		<?php else : ?>

@@ -11,6 +11,7 @@
 		<div class="entry-meta">
 			<?php hundope_posted_on(); ?>
 		</div><!-- .entry-meta -->
+		
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">

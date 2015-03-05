@@ -879,7 +879,6 @@ a:active {
 	margin-bottom: 0;
 }
 }
-
 input[type="search"] {
 	box-sizing: border-box;
 	width: 100%;
@@ -907,6 +906,7 @@ input[type="search"] {
 	border: 0;
 }
 
+/*This enables an error screen if a certain search is not found in the website.*/
 .error404 .search-submit,
 .search .search-submit,
 .search-box .search-submit { 
